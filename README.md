@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Assignment 1 - Foundations of Advanced Front-End Development  
 
-## Getting Started
+##  Overview  
+This project is a simple **React + Next.js** web application that demonstrates core front-end concepts:  
+- Component creation and props  
+- State management across components  
+- Event handling for user interactions  
+- Conditional rendering based on state  
+- Styling with **CSS and Tailwind**  
 
-First, run the development server:
+This application was built as part of **CPAN-144-0NB (Advanced Front-End Programming)**.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###  Home Page (`/`)  
+- Displays a welcome message.  
+- Includes a **Counter component** with Increase/Decrease buttons (props + state + event handling).  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ℹ About Page (`/about`)  
+- Demonstrates **conditional rendering** using a ToggleMessage component.  
+- Clicking the button shows/hides a message.  
 
-## Learn More
+###  Features Page (`/features`)  
+- Demonstrates **event handling and forms** with a UserForm component.  
+- User can type their name, submit, and see a personalized welcome message.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Components  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Navbar** → Navigation menu (Home | About | Features).  
+- **Counter** → Handles props, state, and event handling.  
+- **ToggleMessage** → Demonstrates conditional rendering.  
+- **UserForm** → Handles user input and form submission.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Styling  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Global styling with `globals.css` for dark theme background.  
+- Tailwind CSS used for buttons, layout, and navigation.  
+- Navbar styled with a white background and dark links for readability.  
+
+---
+
+##  Screenshots  
+
+### Home Page
+![Home Page Screenshot](./Screenshots/Home.jpg)  
+
+### About Page
+![About Page Screenshot](./Screenshots/About.jpg)  
+
+### Features Page
+![Features Page Screenshot](./Screenshots/Feature.jpg)  
+
+
+## How to Run Locally  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/inder0121/assignment1-frontend.git
+   cd assignment1-frontend

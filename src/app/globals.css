@@ -1,15 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +16,20 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Extra: Navbar overrides */
+nav {
+  background: #ffffff;   /* force white background */
+}
+
+nav a {
+  color: #333333;        /* dark text for visibility */
+  font-weight: 600;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: teal;
 }
