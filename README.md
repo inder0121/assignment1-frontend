@@ -59,7 +59,9 @@ This application was built as part of **CPAN-144-0NB (Advanced Front-End Program
 
 ## How to Run Locally  
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/inder0121/assignment1-frontend.git
-   cd assignment1-frontend
+## How to Run
+```bash
+git clone https://github.com/inder0121/assignment1-frontend.git
+cd assignment1-frontend
+npm install
+npm run dev
